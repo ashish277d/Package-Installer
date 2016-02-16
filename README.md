@@ -32,5 +32,5 @@ Add a reference to the library
 Create an instance of PackageInstaller and run install()
 ```javascript
 var packageInstaller = new PackageInstaller(['a:','a:b']);
-var results = packageInstaller.install();
+var results = packageInstaller.install(); // returns a, b
 ```
